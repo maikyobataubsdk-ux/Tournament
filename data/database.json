@@ -1,0 +1,106 @@
+{
+  "_schema_version": 1,
+  "_created_at": "2026-11-06T02:00:13.809292+00:00",
+  "_updated_at": "2026-11-06T02:00:13.809325+00:00",
+  "users": [],
+  "player_profiles": [],
+  "teams": [],
+  "team_members": [],
+  "tournaments": [],
+  "tournament_registrations": [],
+  "matches": [],
+  "match_players": [],
+  "room_details": [],
+  "match_results": [],
+  "result_evidence": [],
+  "disputes": [],
+  "notifications": [],
+  "app_releases": [],
+  "admin_users": [],
+  "admin_roles": [
+    {
+      "id": "super_admin",
+      "name": "Super Admin",
+      "permissions": [
+        "*"
+      ]
+    },
+    {
+      "id": "tournament_manager",
+      "name": "Tournament Manager",
+      "permissions": [
+        "tournaments.*",
+        "registrations.*",
+        "matches.view"
+      ]
+    },
+    {
+      "id": "room_host",
+      "name": "Room Host",
+      "permissions": [
+        "matches.*",
+        "rooms.*"
+      ]
+    },
+    {
+      "id": "referee",
+      "name": "Referee",
+      "permissions": [
+        "results.*",
+        "disputes.*"
+      ]
+    },
+    {
+      "id": "support_admin",
+      "name": "Support Admin",
+      "permissions": [
+        "support.*",
+        "players.view"
+      ]
+    },
+    {
+      "id": "content_manager",
+      "name": "Content Manager",
+      "permissions": [
+        "announcements.*",
+        "settings.website"
+      ]
+    }
+  ],
+  "admin_permissions": [],
+  "announcements": [],
+  "settings": [
+    {
+      "site_title": "Booyahesports",
+      "domain": "Booyahesports.in",
+      "contact_email": "support@booyahesports.in",
+      "banner_title": "Battle for Glory in Free Fire MAX",
+      "banner_subtitle": "India's Premier Free-Entry Tournament Platform. Play, Compete, Dominate.",
+      "discord_url": "https://discord.gg/booyahesports",
+      "youtube_url": "https://youtube.com/@booyahesports",
+      "instagram_url": "https://instagram.com/booyahesports",
+      "registration_enabled": true,
+      "maintenance_mode": false,
+      "maintenance_message": "Booyahesports is currently undergoing scheduled maintenance. Please check back soon.",
+      "points_system": {
+        "placement": {
+          "1": 12,
+          "2": 9,
+          "3": 8,
+          "4": 7,
+          "5": 6,
+          "6": 5,
+          "7": 4,
+          "8": 3,
+          "9": 2,
+          "10": 1,
+          "11": 0,
+          "12": 0
+        },
+        "per_kill": 1
+      }
+    }
+  ],
+  "audit_logs": [],
+  "support_tickets": []
+}
